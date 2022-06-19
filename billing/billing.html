@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css"
+    />
+    <title>Shipping</title>
+    <link rel="stylesheet" href="./css/billing.css" />
+  </head>
+  <body>
+    <!-- navbar link here -->
+    <div id="navbar">
+      <span class="subscribe">SUBSCRIBE NOW</span>
+      <img
+        src="https://www.bathandbodyworks.in/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dwe80a4f56/images/logo.png"
+        alt="bath"
+      />
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="">
+          <i class="fa-solid fa-heart"></i>
+        </a>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-plus"></i>
+      </div>
+    </div>
+    <!-- topDisplay -->
+    <div id="topDisplay">
+      <!--3 standard layout master div-->
+      <div class="container">
+        <div class="progress-container">
+          <div class="progress"></div>
+          <div class="circle">
+            <i class="fa-solid fa-1"></i>
+          </div>
+          <div class="circle">
+            <i class="fa-solid fa-2"></i>
+          </div>
+          <div class="circle"><i class="fa-solid fa-3"></i></div>
+        </div>
+      </div>
+    </div>
+    <!-- //////////////////////////////// -->
+    <!-- mai dissplau unit-->
+    <div id="mainDisplay">
+      <!--left-->
+      <div id="leftDisplay">
+        <h3>SHIPPING ADDRESS</h3>
+        <form>
+          <p>Name</p>
+          <input class="details" type="text" id="name" />
+          <p>Address 1</p>
+          <input class="details" type="text" id="add1" />
+          <p>Address 2</p>
+          <input class="details" type="text" id="add2" />
+          <p>City</p>
+          <input class="details" type="text" id="city" />
+          <p>Pin-Code</p>
+          <input class="details" type="number" id="pin" />
+          <p>Phone</p>
+          <input class="details" type="number" id="number" />
+
+          <h3 id="shipping">SHIPPING METHOD</h3>
+          <div>
+            <input
+              class="rbtn"
+              type="radio"
+              name="delivery"
+              value="std"
+              id="standard"
+            /><b>Standard shipping</b>
+            <div><p>3-7 days delivery</p></div>
+          </div>
+          <!-- ///////////// -->
+          <div>
+            <input class="rbtn" type="radio" name="delivery" id="fast" />
+            <b>Fast Shipping</b>
+            <div><p>2-3 days delivery</p></div>
+          </div>
+          <!-- ////////////// -->
+          <div>
+            <input
+              class="rbtn"
+              type="radio"
+              name="delivery"
+              value="super"
+              id="super"
+            />
+            <b>Superfast Shipping</b>
+            <div><p>Within 24 hrs</p></div>
+          </div>
+          <button id="btn_billing" onclick="run()">
+            <a style="color: white" href="billing2.html">GO TO BILLING </a>
+          </button>
+        </form>
+      </div>
+      <!--right-->
+      <!-- <div id="rightDisplay">2</div> -->
+    </div>
+
+    <!-- ///////////////bottom////// -->
+    <div id="termcondition">
+      <div>
+        <a href="">Terms Of Use</a><span>|</span> <a href="">Privacy Policy</a
+        ><span>|</span> <a href="">Security Bug Report</a><span>|</span>
+        <a href="">California Privacy Rights</a><span>|</span>
+        <a href="">Do Not Sell My Personal Information (California)</a
+        ><span>|</span> <a href="">Transparency in Supply Chains</a
+        ><span>|</span>
+        <a href="">Ad Preferences</a>
+      </div>
+      <div>
+        <p>© 2022 Bath & Body Works Direct, Inc. All Rights Reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./script/billing.js"></script>
+
