@@ -1,0 +1,156 @@
+*{
+    font-family: Trade Gothic W01 Bold_2,Arial,sans-serif;
+}
+#bottom{
+    width: 90%;
+    height: 420px;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid red; */
+}
+#bottomleft{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+#bottomright{
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+#righttop{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+#righttop>div>h3{
+    font-size: 14px;
+    margin-left: 1%;
+    color: #333;
+}
+/* #righttop>div>a{
+    text-decoration: none;
+    color: #666;
+} */
+ul>li>a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #666;
+}
+ul>li>a:hover{
+    color:rgb(37, 124, 175) ;
+}
+ul{
+    list-style: none;
+    text-align: left;
+    line-height: 35px;
+    margin-left: -17%;
+    margin-top: -5%;
+}
+#righttop>div{
+    width: 25%;
+    height: 100%;
+    text-align: left;
+    /* border: 1px solid red; */
+}
+#righttop>div>h3{
+    margin-top: 15%;
+}
+#rightbottom{
+    width: 100%;
+    height: 29%;
+    /* border: 1px solid red; */
+}
+#rightbottom>img{
+    width: 45%;
+    margin-top: 3%;
+   float: right;
+}
+#bottomleft>p{
+    width: 90%;
+    margin: auto;
+    color: #333;
+    font-size: 13px;
+    margin-top: 10%;
+}
+#bottomleft>p:nth-child(2){
+    margin-bottom: 15px;
+}
+#enterEmail{
+    display: flex;
+}
+#enterEmail>input{
+    margin-left: 5%;
+}
+#emailimg{
+    width: 25px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+#enterEmail+p{
+    margin-top: 10%;
+}
+#conformmail{
+    margin-left: 5%;
+    margin-top: 4%;
+   
+}
+#conformmail>input{
+    height: 25px;
+}
+#conformmail>button{
+    height: 31px;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #333;
+    color: white;
+}
+#conformmail>button:hover{
+    color:#333;
+    background-color:rgb(212, 212, 212) ;
+}
+#getConnection>h3{
+    font-size: 13px;
+    margin-left: 5%;
+}
+#socialmedialogos{
+    width: 70%;
+    height: 35px;
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#socialmedialogos>a>img{
+    border-radius: 80%;
+    width: 30px;
+}
+#termcondition{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid red; */
+    background-color: rgb(240, 240, 240);
+    font-size: 13px;
+}
+#termcondition>div>a{
+    text-decoration: none;
+    color: #333;
+}
+#termcondition>div>a:hover{
+    border-bottom: 1px solid #333;
+}
+#termcondition>div{
+
+    width: 90%;
+    height: 50%;
+    /* border: 1px solid red; */
+    color: #333;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

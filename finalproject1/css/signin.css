@@ -1,0 +1,293 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#box2 img {
+    height: 115px;
+    margin-top: 22px;
+
+
+}
+
+#box1 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 13px;
+    padding-left: 50px;
+}
+
+.container {
+    height: 250px;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-left: 20px;margin-bottom: 0%;
+
+}
+
+#box1 a {
+    text-decoration: none;
+    color: gray;
+    text-decoration: underline;
+}
+
+#box2 #head {
+    color: rgb(99, 97, 97);
+    margin-top: 40px;
+    padding-right: 730px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+    border: 2px solid rgb(138, 132, 132);
+    height: 30px;
+    width: 249px;
+    margin-left: 260px;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    padding-bottom: 13px;
+}
+
+.box {
+    /* border: 2px solid cyan; */
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 60px;
+}
+
+#bag1,
+#bag2 {
+    /* border: 2px solid teal; */
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 20px;
+}
+
+#bag1 .p1,
+.p1 {
+    font-size: 18px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+#bag1 .p2,
+.p2 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+#bag1 .input {
+    border: 2px solid rgb(224, 219, 219);
+    height: 35px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 33px;
+    text-align: right;
+    display: grid;
+    font-size: 18px;
+    text-align: end;
+    color: gray;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#bag1 .p3 {
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: gray;
+    padding-right: 200px;
+    font-size: 16px;
+    /* margin-bottom: 15px; */
+}
+
+#p3 {
+    margin-right: 25px;
+}
+
+p #logo {
+    height: 190px;
+    width: 390px;
+    margin-right: 100px;
+}
+p button {
+    height: 40px;
+    width: 230px;
+    background-color: black;
+color: beige;        }
+#password11{
+padding-right: 190px;
+color: grey;
+
+}
+#password11 a{
+text-decoration: none;
+color: gray;
+text-decoration: underline;
+}
+#checkbox{
+position: relative;
+left: 93px;
+bottom: 16px;
+font-family: Arial, Helvetica, sans-serif;
+} 
+
+#p{
+text-decoration: none;
+color: gray;
+text-decoration: underline;
+margin-bottom: 15px;
+}
+#sign {
+margin-top: 20px;
+height: 38px;
+width: 130px;
+background-color: black;
+color: white;
+}
+#container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* border: 2px solid black; */
+    height: 600px;
+
+    margin-top: 130px;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 20px;
+   
+
+
+}
+
+.box1 {
+    /* background-color: blue; */
+    /* width:x; */
+    width: 280px;
+    margin-left: 50px;
+    
+
+}
+.box1 :hover{
+    cursor: pointer;
+}
+
+#box-11 {
+    font-family: sans-serif;
+    color: rgb(110, 119, 119);
+
+}
+
+.icon {
+    height: 30 px;
+    width: 30px;
+    margin-top: 20px;
+    position: relative;
+    top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 9px;
+
+}
+
+.first {
+    height: 30px;
+    width: 160px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.enter {
+    position: relative;
+    top: 20px;
+    margin-left: 8px;
+}
+
+.btn {
+    height: 31px;
+    width: 60px;
+    background-color: black;
+    color: white;
+}
+
+#box-21 p {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    padding-left: 25px;
+    color: rgb(110, 119, 119);
+}
+
+#box-31 p {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    padding-left: 25px;
+    color: rgb(110, 119, 119);
+}
+
+#box-41 p {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    padding-left: 25px;
+    color: rgb(110, 119, 119);
+}
+
+#box-51 p {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    padding-left: 25px;
+    color: rgb(110, 119, 119);
+}
+
+#make {
+    height: 100px;
+    width: 330px;
+    margin-top: 20px;
+    margin-left: 0%;
+    margin-right: 10px;
+
+}
+
+.one {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    background-color: rgb(242, 242, 242);
+    padding-top: 40px;
+    color: rgb(132, 135, 137);
+    width: 1700px;
+
+
+}
+
+
+.last:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#create:hover,#sign:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#password1{
+width: 295px;
+}
+#bag3{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 70px;        }
+    #bag3 p {
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        margin-bottom: 10px;
+    }

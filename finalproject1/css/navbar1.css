@@ -1,0 +1,79 @@
+#navbar {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 70px;
+    width: 94%;
+    margin: auto;
+    padding: 0 3%;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .subscribe {
+    color: #e5b95f;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .subscribe:hover {
+    transition: 200ms;
+    color: rgb(228, 54, 54);
+  }
+  /* #img1 {
+    height: 10x;
+    width: 30%;
+    cursor: pointer;
+  } */
+  
+  .search i {
+    margin-left: 20px;
+    height: 16px;
+    color: #e5b95f;
+    /* padding: 0px 10px; */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  * {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+
+
+  /* buttom */
+
+  #termcondition {
+    margin-top: 50px;
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid red; */
+    background-color: rgb(240, 240, 240);
+    font-size: 13px;
+  }
+  #termcondition > div > a {
+    text-decoration: none;
+    color: #333;
+  }
+  #termcondition > div > a:hover {
+    border-bottom: 1px solid #333;
+  }
+  #termcondition > div {
+    width: 90%;
+    height: 50%;
+    /* border: 1px solid red; */
+    color: #333;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* /////////////////////// */
+  .rbtn {
+    margin-top: 10px;
+  }
+  

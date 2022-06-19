@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shopping Cart</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link
+      rel="icon"
+      href="https://www.banggood.in/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        -->
+        <div id="alerts"></div>
+        <div class="productcont">
+         
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+
+          <hr />
+          <table id="carttotals">
+            <tr>
+              <td><strong>Total Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity" class="totalItem">0</span></td>
+              <td><span id="total" class="totalPrice">0</span></td>
+            </tr>
+          </table>
+
+          <div id="promo">
+            <p>Promocode</p>
+            <input
+              id="promoCode"
+              type="text"
+              placeholder="Promo Code (Hint: masai30)"
+            />
+          </div>
+
+          <div class="cart-buttons">
+            <button id="emptyCart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+            <button id="applyPromo">Apply Promo</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+   
+  </body>
+</html>
+<script src="./script/cart.js"></script>

@@ -1,0 +1,183 @@
+#navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  height: 70px;
+  width: 94%;
+  margin: auto;
+  padding: 0 3%;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.subscribe {
+  color: #e5b95f;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.subscribe:hover {
+  transition: 200ms;
+  color: rgb(228, 54, 54);
+}
+img {
+  height: 50x;
+  width: 188.56px;
+  cursor: pointer;
+}
+.search i {
+  margin-left: 20px;
+  height: 16px;
+  color: #e5b95f;
+  /* padding: 0px 10px; */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+/* /////////////////////////////// */
+#topDisplay {
+  margin-top: 50px;
+  width: 100%;
+  height: 80px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+
+  /***/
+  /* background-color: #f6fbf8; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  justify-content: center;
+  /* background-color: #f6fbf8; */
+  margin-top: 25px;
+}
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  max-width: 100%;
+  width: 350px;
+  /* background-color: #f6fbf8; */
+}
+.progress {
+  /* background-color: #f6fbf8; */
+  position: absolute;
+}
+.circle {
+  /* background-color: whitesmoke; */
+  margin-bottom: 0px;
+}
+
+/* designing icons */
+.circle > .fa-1 {
+  background-color: white;
+  border: 2px solid blue;
+  color: blue;
+  border-radius: 50%;
+  font-size: 15px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
+}
+.circle > .fa-2 {
+  color: black;
+  background-color: lightgray;
+  border-radius: 50%;
+  font-size: 15px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
+}
+.circle > .fa-3 {
+  color: black;
+  background-color: lightgray;
+  border-radius: 50%;
+  font-size: 15px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 10px;
+}
+/* /////////////// */
+
+#mainDisplay {
+  display: flex;
+  gap: 20px;
+  /* width: 70%;
+  margin: auto; */
+}
+#leftDisplay {
+  width: auto;
+  margin: auto;
+}
+.details {
+  width: 350px;
+  height: 15px;
+  padding: 5px;
+  gap: 5px;
+  margin: 10px 0 10px 0;
+  border: 1px solid lightgray;
+}
+#rightDisplay {
+  width: 30%;
+  margin: auto;
+}
+
+#shipping {
+  margin-top: 85px;
+  margin-bottom: 35px;
+}
+#btn_billing {
+  margin-top: 25px;
+  width: 120px;
+  height: 30px;
+  color: white;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+
+/* //////////////////bottom/////////// */
+
+#termcondition {
+  margin-top: 50px;
+  width: 100%;
+  height: 130px;
+  /* border: 1px solid red; */
+  background-color: rgb(240, 240, 240);
+  font-size: 13px;
+}
+#termcondition > div > a {
+  text-decoration: none;
+  color: #333;
+}
+#termcondition > div > a:hover {
+  border-bottom: 1px solid #333;
+}
+#termcondition > div {
+  width: 90%;
+  height: 50%;
+  /* border: 1px solid red; */
+  color: #333;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* /////////////////////// */
+.rbtn {
+  margin-top: 10px;
+}

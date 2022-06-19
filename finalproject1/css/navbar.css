@@ -1,0 +1,82 @@
+ /* Parent DIv */
+ #navbar{
+    width: 100%;
+    /* border: 1px solid green; */
+}
+#topnav{
+    /* border: 1px solid red; */
+    
+    width: 100%;
+    height: auto;
+}
+/* Inside Top Child DIV */
+#topnav{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+#topnav>img{
+    width: 30%;
+    margin-top: 12px;
+    margin-left: 25%;
+    position: absolute;
+}
+#search{
+    /* border: 1px solid red; */
+    width: 35%;
+    margin-left: 65%;
+    display: flex;
+}
+#search>input{
+    height: 30px;
+    width: 60%;
+    margin-top: 2.5%;
+    /* margin: 2.5%; */
+    
+}
+#selo{
+    position: relative;
+    margin-top:100% ;
+    margin-left: -150%;
+    cursor: pointer;
+}
+#acc{
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-right: 5%;
+    display: flex;
+}
+#account{
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#bag{
+    width: 40%;
+    height: 50%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 20px;
+}
+
+/* INside Bottom Child DIV */
+#catenav{
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#catenav>h5>a{
+    text-decoration: none;
+    color: black;
+}
+#catenav>h5:hover{
+    border-bottom: 3px solid #005699;
+    cursor: pointer;
+}
+/* Landing Page CSS */

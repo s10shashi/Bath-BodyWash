@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    /* background-color: #F2F2F2; */
+  }
+  
+  #topleft > input {
+    width: 60%;
+    height: 30px;
+    font-size: 17px;
+    margin-top: 16px;
+  }
+  #cart {
+    font-size: 30px;
+    color: #015799;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  #cart:hover {
+    color: black;
+    transition: 0.3ms;
+  }
+  
+  #content {
+    display: flex;
+  }
+  #leftbox {
+    width: 16%;
+    height: 800px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding-left: 100px;
+    color: grey;
+  }
+  #leftbox p {
+    margin: 23px 0px 0px 0px;
+  }
+  #head {
+    font-weight: bold;
+    color: black;
+  }
+  #leftbox p:hover {
+    color: #4d88bd;
+    cursor: pointer;
+    border-left: 2px solid #4d88bd;
+    padding: 5px;
+  }
+  #rightbox {
+    width: 71%;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+  }
+  #righthead {
+    height: 60px;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+  }
+  #righthead > h2 {
+    font-family: "Titillium Web", sans-serif;
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  .num {
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    width: 33px;
+    border-radius: 50%;
+    margin-top: 12px;
+  }
+  #rightend {
+    display: flex;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 15px;
+  }
+  #qty {
+    margin: 20px 10px 0px 20px;
+    color: black;
+    font-weight: bold;
+  }
+  .num:hover {
+    background-color: rgb(207, 204, 204);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 550px;
+    /* border: 1px solid black; */
+    grid-gap: 20px;
+    margin-top: 30px;
+  }
+  /* .product{
+     background-color: grey;
+  } */
+  #top {
+    width: 100%;
+    height: 340px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 60%;
+    height: 340px;
+  }
+  #bottom {
+    width: 100%;
+    height: 110px;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  #bottom > h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  #disc {
+    color: #666666;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+  #stText {
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+  }
+  #strike {
+    color: #666666;
+    font-weight: 400;
+    text-decoration: line-through rgb(102, 102, 102);
+    font-size: 18px;
+    margin: 0px 5px 10px 0px;
+  }
+  #rate {
+    color: #cc0000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 10px 5px;
+  }
+  #stText ~ p {
+    color: #cc0000;
+    margin: 0px;
+    font-size: 12px;
+  }
+  #button {
+    height: 35px;
+    width: 90%;
+    background-color: rgb(51, 51, 51);
+    color: rgb(246, 246, 246);
+    border: 0px;
+    margin-top: 0px;
+    font-family: Arial, sans-serif;
+  }
+  #button:hover {
+    background-color: rgb(246, 246, 246);
+    color: rgb(51, 51, 51);
+    transition: 0.3s;
+  }
+  #bottom2 {
+    width: 100%;
+    height: 85px;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .star {
+    margin-top: 10px;
+    font-size: 7px;
+    color: rgb(231, 202, 128);
+  }
+  .checked {
+    color: orange;
+  }
+  
+  #filter {
+    height: 60px;
+    margin: 10px 0px 10px 0px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, sans-serif;
+  }
+  #filterone {
+    display: flex;
+  }
+  #sort {
+    display: flex;
+  }
+  option {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  #filter select {
+    border: 0px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-bottom: 3px solid black;
+    background-color: #f2f2f2;
+    /* background-color: #F2F2F2; */
+  }
+  #sort select {
+    width: 150px;
+    background-color: #f2f2f2;
+  }
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  
