@@ -37,7 +37,6 @@ img {
   font-size: 16px;
   cursor: pointer;
 }
-
 * {
   font-family: "poppins", sans-serif;
   margin: 0;
@@ -74,8 +73,7 @@ img {
 }
 /* .product * {
         border: 1px solid green;
-      } */
-
+    } */
 .product > h3 {
   font-size: 16px;
   font-weight: 500;
